@@ -11,4 +11,4 @@ $date = '2018';
 include 'ex1site2tpl.html';	//!...2018
 
 //$content = include 'ex1site2tpl.html';
-//echo $content;					//!...2018 1
+//echo $content;					//!...2018 1 <<- Откуда берется '1' ума не приложу!

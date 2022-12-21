@@ -15,7 +15,7 @@ $outStr = str_replace( "{{ title }}", $title, $outStr);
 $outStr = str_replace( "{{ h1 }}", $h1, $outStr);
 $outStr = str_replace( "{{ date }}", $date, $outStr);
 
-//
+//todo
 //$outStr = str_replace(
 //	["{{ title }}", "{{ h1 }}", "{{ date }}"],
 //	[$title, $h1, $date],
