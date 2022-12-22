@@ -17,12 +17,17 @@ $mapper = function (int $n) {
 	//if ($n & 1) return 'нечет';
 	return 'чет';
 };
+//
+// Стрелочная 
+$mapr = fn (int $n) => $n & 1 ? 'нечетное' : 'четное';
 
 // 
 // Обработка массива
 $resArr = array_map($mapper, $intArr);
+$rArr = array_map($mapr, $intArr);
 
 //
 // Вывод результата
 //print_r($intArr);
 print_r($resArr);
+print_r($rArr);
